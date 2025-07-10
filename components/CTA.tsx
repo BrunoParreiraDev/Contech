@@ -1,3 +1,4 @@
+// components/CTA.tsx
 import styles from "@/styles/style";
 import Button from "./Button";
 
@@ -14,12 +15,19 @@ const CTA: React.FC = () => (
         sua carreira.
       </p>
     </div>
-    <div
-      className={`flex flex-col items-start sm:ml-10 ml-0 sm:mt-0 mt-10 gap-4`}
-    >
-      <Button text="Marcar aula experimental presencial" />
-      <Button text="Marcar aula experimental online" />
-      <Button text="Plataforma de cursos online" />
+    <div className="flex flex-col items-start sm:ml-10 ml-0 sm:mt-0 mt-10 gap-4">
+      <Button
+        text="Marcar aula experimental presencial"
+        href="https://wa.me/5575981143332?text=Olá!%20Gostaria%20de%20marcar%20uma%20aula%20presencial!"
+      />
+      <Button
+        text="Marcar aula experimental online"
+        href="https://www.instagram.com/contech.lab"
+      />
+      <Button
+        text="Plataforma de cursos online"
+        href="https://www.instagram.com/contech.lab"
+      />
     </div>
   </section>
 );

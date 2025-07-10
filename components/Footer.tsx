@@ -48,15 +48,20 @@ const Footer: React.FC = () => (
         © 2025 Contech. Todos os direitos reservados.
       </p>
       <div className="flex flex-row md:mt-0 mt-6">
-        {socialMedia.map(({ id, icon }, index) => (
-          <Image
+        {socialMedia.map(({ id, icon, link }, index) => (
+          <a
             key={id}
-            src={icon}
-            alt={id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-          />
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"}`}
+          >
+            <Image
+              src={icon}
+              alt={id}
+              className="w-[21px] h-[21px] object-contain cursor-pointer"
+            />
+          </a>
         ))}
       </div>
     </div>

@@ -17,10 +17,11 @@ const Hero: React.FC = () => (
       </div>
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
-          Aprenda<br className="sm:block hidden" />{" "}
+          Aprenda
+          <br className="sm:block hidden" />{" "}
           <span className="text-gradient">Tecnologia</span> na Prática{" "}
         </h1>
-        <div className="ss:flex hidden md:mr-4 mr-0">
+        <div className="hidden md:flex md:mr-4">
           <GetStarted />
         </div>
       </div>

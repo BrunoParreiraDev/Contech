@@ -14,6 +14,7 @@ import {
   star,
   youtube,
   tiktok,
+  whatsapp,
 } from "@/public/assets";
 
 export const navLinks = [
@@ -164,7 +165,7 @@ export const socialMedia = [
   },
   {
     id: "social-media-2",
-    icon: facebook,
+    icon: whatsapp,
     link: "https://wa.me/5575981143332",
   },
   {

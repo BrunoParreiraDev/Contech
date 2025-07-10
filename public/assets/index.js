@@ -21,6 +21,7 @@ import instagram from "./instagram.svg";
 import youtube from "./youtube.svg";
 import tiktok from "./tiktok.svg";
 import linkedin from "./linkedin.svg";
+import whatsapp from "./whatsapp.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
@@ -50,6 +51,7 @@ export {
   youtube,
   tiktok,
   linkedin,
+  whatsapp,
   twitter,
   people01,
   people02,
