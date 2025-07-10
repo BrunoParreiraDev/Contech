@@ -4,7 +4,7 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
+import logo from "./wordmark.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -18,6 +18,8 @@ import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
+import youtube from "./youtube.svg";
+import tiktok from "./tiktok.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
@@ -45,6 +47,8 @@ export {
   discount,
   facebook,
   instagram,
+  youtube,
+  tiktok,
   linkedin,
   twitter,
   people01,

@@ -1,12 +1,12 @@
 import "@/styles/globals.css";
 export const metadata = {
-  title: "HooBank",
-  description: "Hoobank is an Modern Landing Page built with Next JS and Typescript",
+  title: "Contech Lab | Tecnologia na Prática",
+  description: "Somos uma escola técnica de educação tecnológica feita para colocar a mão na massa de verdade. Aqui, você aprende robótica, eletrônica, programação em Python, montagem e manutenção de computadores, e impressão/modelagem 3D com projetos reais — nada de slides intermináveis ",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode; }) => {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body>
         {children}
       </body>

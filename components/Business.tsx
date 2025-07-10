@@ -4,13 +4,19 @@ import Button from "./Button";
 import Image from "next/image";
 import { FeatredCardProps } from "@types";
 
-const FeaturesCard: React.FC<FeatredCardProps> = ({ icon, title, content, index }) => (
+const FeaturesCard: React.FC<FeatredCardProps> = ({
+  icon,
+  title,
+  content,
+  index,
+}) => (
   <div
-    className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"
-      } feature-card`}
+    className={`flex flex-row p-6 rounded-[20px] ${
+      index !== features.length - 1 ? "mb-6" : "mb-0"
+    } feature-card`}
   >
     <div
-      className={`w-[64px] h-[64px] rounded-full bg-dimBlue ${styles.flexCenter}`}
+      className={`w-[64px] h-[64px] rounded-full bg-dimYellow ${styles.flexCenter}`}
     >
       <Image src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
@@ -24,17 +30,18 @@ const FeaturesCard: React.FC<FeatredCardProps> = ({ icon, title, content, index 
     </div>
   </div>
 );
+
 const Business: React.FC = () => (
   <section id="features" className={`${layout.section}`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" />
-        We'll handle the money.
+        Cursos Profissionalizantes, <br className="sm:block hidden" />
+        Mão na Massa.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial lif e by
-        building credit, earning rewards and saving money. But with hundreds of
-        credits cards on the market.
+        Aprenda de verdade a consertar, montar e automatizar dispositivos
+        eletrônicos — do básico ao avançado, com mão na massa desde o primeiro
+        dia.
       </p>
       <Button styles="mt-10" />
     </div>

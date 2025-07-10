@@ -9,10 +9,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
-        secondary: "#00f6ff",
+        primary: "#00040f", // fundo escuro
+        secondary: "#FCD201", // amarelo no lugar do azul
         dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        dimYellow: "rgba(252, 210, 1, 0.1)", // antes era dimBlue
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
